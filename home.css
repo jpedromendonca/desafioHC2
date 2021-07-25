@@ -4,28 +4,25 @@
 }
 
 header {
-  background: rgb(150, 123, 123);
+  background: black;
   padding: 30px;
 }
 body {
-  background-color: rgb(150, 123, 123);
+  background-color: black;
   font-family: 'Montserrat', sans-serif;
-  color: pink;
-}
-
-li:before {
-  content: '🟊';
+  color: rgb(155, 89, 216);
 }
 
 nav li {
   margin-left: 30%;
   display: table;
   padding: 0.5rem;
+  text-align: justify;
 }
 
 nav a {
   text-transform: uppercase;
-  color: rgb(224, 147, 160);
+  color: rgb(83, 2, 107);
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
@@ -46,6 +43,6 @@ footer {
   padding: 80px 0 0 0;
   height: 50px;
   text-align: center;
-  background-color: rgb(150, 123, 123);
-  color: pink;
+  background-color: black;
+  color: blueviolet;
 }
