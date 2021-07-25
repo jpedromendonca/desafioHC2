@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="produtos.css" />
+    <title>Cadastro de produtos</title>
+  </head>
+  <body>
+    <section class="section-container">
+      <img
+        class="Perfumes"
+        src="imagens/perfumes-importados.jpg"
+        alt="Foto perfumes importados"
+        width="35%"
+      />
+    </section>
+    <section class="section-container">
+      <div class="card-container">
+        <p class="p">Cadastro de clientes Liz Perfumes.</p>
+        <div id="content">
+          <form id="form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" class="input-padrao" required />
+            <label for="descricao">Descrição</label>
+            <input type="text" id="descricao" class="input-padrao" required />
+            <label for="familiaolfativa">Família olfativa</label>
+            <input
+              type="text"
+              id="familiaolfativa"
+              class="input-padrao"
+              required
+            />
+            <label for="volume">Volume</label>
+            <input type="text" id="volume" class="input-padrao" required />
+            <label for="preco">Preço</label>
+            <input type="text" id="preco" class="input-padrao" required />
+            <label for="fragancia">Concentração da fragância</label>
+            <input type="text" id="fragancia" class="input-padrao" required />
+
+            <input type="submit" value="Cadastrar" class="enviar" />
+          </form>
+          <a href="home.html">Voltar</a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Todos os direitos reservados.</p>
+    </footer>
+  </body>
+  <script src="script2.js"></script>
+</html>
